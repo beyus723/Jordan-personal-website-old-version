@@ -7,6 +7,11 @@ body
   background: linear-gradient(311deg, rgba(109,133,163,1) 23%, rgba(238,237,237,1) 74%);
 }
 
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 #container
 {
   /* background-color: green; */
@@ -30,19 +35,21 @@ body
 {
   border: solid 4px rgba(238,237,237,1);
   background: #406a8a;
-  padding: 7px 20px;
+  padding: 10px 20px;
   text-align: center;
   color: rgba(238,237,237,1);
   opacity: 85%;
   border-radius: 10px;
   width: 970px;
+  font-size: 45px;
 }
 
 .top_bar:hover
 {
   border-radius: 10px;
   border: solid 4px #9dacbf;
-  color: #9dacbf;
+  color: #201003;
+  text-decoration: none;
 }
 
 
@@ -103,13 +110,10 @@ flex-direction: column;
   border-radius: 10px;
   border: solid 4px #9dacbf;
   color: #9dacbf;
-}
-
-a:tilelink
-{
-  color: rgba(238,237,237,1);
   text-decoration: none;
 }
+
+
 
 
 .box_quote
