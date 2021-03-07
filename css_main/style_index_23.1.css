@@ -219,8 +219,8 @@ flex-direction: column;
 .tile_homepage:hover
 {
   border-radius: 10px;
-  border: solid 6px rgba(238,237,237,1);
-  color: rgba(238,237,237,1);
+  border: solid 6px #3d5f8a;
+  color: #3d5f8a;
   text-decoration: none;
   font-size: 17px;
 
@@ -321,12 +321,12 @@ flex-direction: column;
 {
   /* background-color: yellow; */
   border-radius: 10px;
-  border: solid 4px rgba(238,237,237,1);
+  /* border: solid 4px #3d5f8a; */
   width: 83%;
   height: 91%;
   margin: 20px;
   padding: 17px;
-  color: rgba(238,237,237,1);
+  color: #3d5f8a;
 
   font-size: 23;
   text-align: justify;
