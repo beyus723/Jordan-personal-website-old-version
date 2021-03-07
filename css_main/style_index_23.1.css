@@ -87,7 +87,7 @@ h2
 
   /* background: linear-gradient(233deg, rgba(27,67,123,1) 15%, rgba(238,237,237,1) 7%, rgba(27,67,123,1) 5%, rgba(109,133,163,1)); */
 
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
 
@@ -219,8 +219,8 @@ flex-direction: column;
 .tile_homepage:hover
 {
   border-radius: 10px;
-  border: solid 6.5px #3d5f8a;
-  color: #3d5f8a;
+  border: solid 6px rgba(238,237,237,1);
+  color: rgba(238,237,237,1);
   text-decoration: none;
   font-size: 17px;
 
