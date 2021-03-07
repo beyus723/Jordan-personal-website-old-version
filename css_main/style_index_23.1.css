@@ -369,8 +369,8 @@ flex-direction: column;
 
 .scroll_bar_contactbox
 {
-  /* padding-right: 15px; */
-  /* margin-left: 15px; */
+  padding-right: 15px;
+  margin-left: 15px;
   overflow: hidden;
   overflow: auto;
   font-size: 17px;
