@@ -59,7 +59,7 @@
 .icon-list-alt:before { content: '\e801'; font-size: 77px;} /* '' */
 .icon-briefcase:before { content: '\e802'; font-size: 77px;} /* '' */
 .icon-book:before { content: '\e803'; font-size: 77px;} /* '' */
-.icon-mail:before { content: '\e804'; font-size: 77px;} /* '' */
+.icon-mail:before { content: '\e804'; font-size: 76px;} /* '' */
 .icon-user:before { content: '\e805'; font-size: 77px;;} /* '' */
 .icon-th-list:before { content: '\e806'; font-size: 77px;} /* '' */
 .icon-th-large:before { content: '\e807'; font-size: 77px;} /* '' */
@@ -73,7 +73,7 @@
 .icon-mail-alt:before { content: '\f0e0'; font-size: 77px;} /* '' */
 .icon-linkedin:before { content: '\f0e1'; font-size: 45px;} /* '' */
 .icon-sitemap:before { content: '\f0e8'; font-size: 77px;} /* '' */
-.icon-laptop:before { content: '\f109'; font-size: 75px;} /* '' */
+.icon-laptop:before { content: '\f109'; font-size: 77px;} /* '' */
 .icon-fork:before { content: '\f126'; font-size: 77px;} /* '' */
 .icon-graduation-cap:before { content: '\f19d'; font-size: 77px;} /* '' */
 .icon-google:before { content: '\f1a0'; font-size: 45px;} /* '' */
@@ -86,3 +86,77 @@
 .icon-twitter-squared:before { content: '\f304'; font-size: 70px;} /* '' */
 .icon-facebook-squared:before { content: '\f308'; font-size: 70px;} /* '' */
 .icon-linkedin-squared:before { content: '\f30c'; font-size: 55px;} /* '' */
+
+
+@media (max-width: 1023px)
+{
+  [class^="icon-"]:before, [class*=" icon-"]:before {
+   font-family: "fontello";
+   font-style: normal;
+   font-weight: normal;
+   speak: never;
+
+   display: inline-block;
+   text-decoration: inherit;
+   width: 1em;
+   margin-right: 0.15em;
+   text-align: center;
+   /* opacity: .8; */
+
+   /* For safety - reset parent styles, that can break glyph codes*/
+   font-variant: normal;
+   text-transform: none;
+
+   /* fix buttons height, for twitter bootstrap */
+   line-height: 1em;
+
+   /* Animation center compensation - margins should be symmetric */
+   /* remove if not needed */
+   margin-left: .2em;
+
+   /* you can be more comfortable with increased icons size */
+   /* font-size: 120%; */
+
+   /* Font smoothing. That was taken from TWBS */
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+
+   /* Uncomment for 3D effect */
+   text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3);
+ }
+
+ .icon-align-justify:before { content: '\e800'; font-size: 150px;} /* '' */
+ .icon-list-alt:before { content: '\e801'; font-size: 150px;} /* '' */
+ .icon-briefcase:before { content: '\e802'; font-size: 150px;} /* '' */
+ .icon-book:before { content: '\e803'; font-size: 150px;} /* '' */
+ .icon-mail:before { content: '\e804'; font-size: 150px;} /* '' */
+ .icon-user:before { content: '\e805'; font-size: 150px;;} /* '' */
+ .icon-th-list:before { content: '\e806'; font-size: 150px;} /* '' */
+ .icon-th-large:before { content: '\e807'; font-size: 150px;} /* '' */
+ .icon-home:before { content: '\e808'; font-size: 45px;} /* '' */
+ .icon-globe:before { content: '\e809'; font-size: 150px;} /* '' */
+ .icon-twitter:before { content: '\f099'; font-size: 45px;} /* '' */
+ .icon-facebook:before { content: '\f09a'; font-size: 150px;} /* '' */
+ .icon-github-circled:before { content: '\f09b'; font-size: 45px;} /* '' */
+ .icon-beaker:before { content: '\f0c3'; font-size: 150px;} /* '' */
+ .icon-gplus-squared:before { content: '\f0d4'; font-size: 150px;} /* '' */
+ .icon-mail-alt:before { content: '\f0e0'; font-size: 150px;} /* '' */
+ .icon-linkedin:before { content: '\f0e1'; font-size: 45px;} /* '' */
+ .icon-sitemap:before { content: '\f0e8'; font-size: 150px;} /* '' */
+ .icon-laptop:before { content: '\f109'; font-size: 150px;} /* '' */
+ .icon-fork:before { content: '\f126'; font-size: 150px;} /* '' */
+ .icon-graduation-cap:before { content: '\f19d'; font-size: 150px;} /* '' */
+ .icon-google:before { content: '\f1a0'; font-size: 45px;} /* '' */
+ .icon-database:before { content: '\f1c0'; font-size: 150px;} /* '' */
+ .icon-at:before { content: '\f1fa'; font-size: 70px;} /* '' */
+ .icon-user-circle:before { content: '\f2bd'; font-size: 150px;} /* '' */
+ .icon-user-circle-o:before { content: '\f2be'; font-size: 150px;} /* '' */
+ .icon-user-o:before { content: '\f2c0'; } /* '' */
+ .icon-github-squared:before { content: '\f300'; font-size: 45px;} /* '' */
+ .icon-twitter-squared:before { content: '\f304'; font-size: 70px;} /* '' */
+ .icon-facebook-squared:before { content: '\f308'; font-size: 70px;} /* '' */
+ .icon-linkedin-squared:before { content: '\f30c'; font-size: 55px;} /* '' */
+
+
+
+}
