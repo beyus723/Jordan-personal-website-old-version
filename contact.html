@@ -8,7 +8,8 @@
   <!-- CSS style-sheets -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="css_main/style_index.css" />
+  <link rel="stylesheet" href="css_main/style_index_23.1.css" />
+
   <link rel="stylesheet" href="css/fontello.css" />
 
   <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -21,24 +22,29 @@
 
   <div id="container">
 
+
     <div id="content">
 
-      <a href="index.html" class="tile_home_icon">
-        <i class="icon-home"></i>
-        <span class="home_txt">Home</span>
-      </a>
+      <div id="header">
+        <div class="home_button">
+          <a href="index.html" class="tile_home_icon">
+            <i class="icon-home"></i>
+            <span class="home_txt">Home</span>
+          </a>
+        </div>
 
 
-      <a href="index.html" class="top_bar">
-        <h1>Jordan Ramilowski, PhD</h1>
-        <h2>Bioinformatics Associate Professor</h2>
-      </a>
+        <div class="top_bar">
+          <h1>Jordan Ramilowski, PhD</h1>
+          <h2>Bioinformatics Associate Professor</h2>
+        </div>
 
+      </div>
 
       <div id="leftC">
         <a href="about.html" class="tile_homepage">
           <i class="icon-user-circle-o"></i>
-          About Me
+          About
         </a>
 
         <a href="links.html" class="tile_homepage">
@@ -63,17 +69,61 @@
 
         <a href="joinus.html" class="tile_homepage">
           <i class="icon-sitemap"></i>
-          Join us!
+          Lab
         </a>
       </div>
 
       <div id="rightC">
         <div class="tile_rightC">
+
           <i class="icon-mail-alt"></i>
-          <p>CONTACT</p>
+          <p>Contact</p>
+          <br>
+
+          <!-- <div class="contact_logos">
+            <a href="https://gmail.com">
+              <div class="tile_contact">
+                <i class="icon-google"></i>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com">
+              <div class="tile_contact">
+                <i class="icon-linkedin"></i>
+              </div>
+            </a>
+
+            <a href="https://twitter.com">
+              <div class="tile_contact">
+                <i class="icon-twitter"></i>
+              </div>
+            </a>
+
+            <a href="https://github.com">
+              <div class="tile_contact">
+                <i class="icon-github-circled"></i>
+              </div>
+            </a>
+          </div> -->
+
+          <div class="scroll_bar_contactbox">
+            <form>
+              <div class="emailBox">
+                <label for="emailAddress">Your e-mail address</label><br>
+                <input id="emailAddress" type="email" size="40" maxLength="64" required placeholder="username@email.com" title="Please provide only a Best Startup Ever corporate e-mail address">
+              </div>
+              <br>
+              <div class="messageBox">
+                <label for="message">Message</label><br>
+                <textarea id="message" cols="" rows="8" required placeholder="Please write your message here."></textarea>
+              </div>
+              <br>
+              <input type="submit" value="Send e-mail">
+            </form>
+          </div>
+
         </div>
       </div>
-
     </div>
 
     <div id="footer">
